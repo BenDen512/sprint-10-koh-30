@@ -16,10 +16,11 @@
         android:background="@color/color4" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvItems"
+        android:id="@+id/rv_items"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:padding="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     <LinearLayout
